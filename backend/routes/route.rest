@@ -1,0 +1,33 @@
+GET http://localhost:3000/students
+
+
+###
+
+GET http://localhost:3000/students/651daa1dd9d48fc6a2000ecc
+
+###
+
+PATCH  http://localhost:3000/students/651f0f636b30af57f5fbe3da
+Content-Type: application/json
+
+{
+    "fullName" : "Besmir"
+}
+
+###
+
+DELETE http://localhost:3000/students/651daa1dd9d48fc6a2000ecc
+
+###
+
+POST  http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "fullName" : "Besmir",
+    "email" : "besmir1998@hotmail.com"
+}
+
+###
+
+POST  http://localhost:3000/students/update1
